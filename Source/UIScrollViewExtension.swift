@@ -17,7 +17,7 @@ extension UIScrollView {
     }
 
     func addPullToRefresh(refreshCompletion :(() -> ())) {
-        self.addPullToRefresh(options: PullToRefreshOption(), refreshCompletion: refreshCompletion)
+        self.addPullToRefresh(PullToRefreshOption(), refreshCompletion: refreshCompletion)
     }
     
     func addPullToRefresh(options: PullToRefreshOption = PullToRefreshOption(), refreshCompletion :(() -> ())) {
